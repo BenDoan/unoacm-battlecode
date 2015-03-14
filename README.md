@@ -14,9 +14,10 @@
     1. Navigate to the lib folder inside of your battlecode install and select battlecode-server.jar and battlecode-client.jar
 
 ### Deploy 
-1. Click the arrow next to the external tools>Select External tools configuration>Create a new ant build 
-1. Download the deploy.xml from this repository and set it as the build file
-1. Run 
+1. Download the deploy.xml from this repository, copy it to the base directory of your project, and change the battlecode location to match your install
+1. Click the arrow next to the external tools>Select External too ls configuration>Create a new ant build 
+ and set it as the build file and type in a name  for the ant script
+1. Run the deploy by clicking the arrow again and selecting the script
 
 
 
