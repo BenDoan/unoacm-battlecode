@@ -1,0 +1,16 @@
+<project name="Battlecode" default="run">
+<property name="battlecodeinstall" location="C:\Users\Mitchell\Desktop\Battlecode(CHANGE ME!)"/>
+<target name="copy">
+    <copy todir="${battlecodeinstall}\teams">
+        <fileset dir="src"/>
+    </copy>
+</target>
+<target name="clean">
+	    <ant dir="${battlecodeinstall}" target="clean">
+	    </ant>
+</target>
+<target name="run" depends="copy">
+    <ant dir="${battlecodeinstall}">
+    </ant>
+</target>
+</project>
