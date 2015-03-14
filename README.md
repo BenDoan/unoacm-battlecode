@@ -1,5 +1,9 @@
 # UNO ACM BattleCode
 
+## Competition details
+* The tournament will be held at PKI on Saturday, April 11 at 1:00PM - PKI 278
+* Email your robot to [bdoan@unomaha.edu](mailto:bdoan@unomaha.edu) by April 9 11:59 PM
+
 ## Setup Instructions
 ### BattleCode
 1. Download the installer from [this](http://www.battlecode.org/contestants/releases/) website
